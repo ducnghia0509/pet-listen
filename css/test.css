@@ -1,0 +1,25 @@
+
+.test-product {
+    position: relative;
+}
+.test-courses {
+    position: absolute;
+    top: calc(100% / 3);
+    left: 20%;
+}
+
+.test-course {
+    min-width: 100px;
+    border-radius: 50px;
+    border: 3px solid var(--primary-color);
+    margin: 12px 0;
+    padding: 16px;
+    background-color: var(--white-color);
+}
+.test-course__link {
+    padding: 16px;
+    color: var(--primary-color);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+}
