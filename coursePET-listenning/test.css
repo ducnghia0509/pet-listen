@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.test-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.audio-test,
+.btn-footer {
+    text-align: center;
+}
+.btn-footer {
+    margin-top: 48px;
+}
+
+.btn-submit,
+.btn-desc,
+.btn-save {
+    padding: 3px;
+    margin: 12px 32px;
+    min-width: 120px;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 20px;
+    border: none;
+    padding: 6px 18px;
+    font-family: cursive;
+    cursor: pointer;
+}
+.btn-submit {
+    background-color: rgb(76, 255, 76);
+}
+.btn-desc {
+    background-color: rgb(234, 52, 31);
+}
+.btn-save {
+    background-color: var(--black-color);
+}
+.btn-submit:hover,
+.btn-desc:hover,
+.btn-save:hover {
+    opacity: 0.8;
+}
+
+
+ul {
+    list-style: none;
+}
+
+.chooseTF li{
+    display: inline-flex;
+    width: 40%;
+    margin: 12px 0;
+    
+}
+.selectTF {
+    margin: 0 6px;
+    background-color: rgb(240, 240, 240);
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.form-btnYN,
+.select-item {
+    display: inline-flex;
+}
+.selectTF:hover {
+    background-color: rgb(200, 200, 200);
+}
+.chooseThis {
+    background-color: rgb(200, 200, 200);
+    cursor: default;
+}
+.test-infomation,
+.result-block {
+    display: flex;
+    height: 36px;
+}
+.test-infomation {
+    padding: 32px 0;
+}
+.test-question,
+.result-block p {
+    flex: 3;
+}
+.btn-tf {
+    width: 40px;
+    height: 30px;
+    margin: 0 24px;
+}
+.btn-tf:hover {
+    cursor: pointer;
+}
+.chooseYN,
+.result-block div {
+    flex: 1;
+}
+.result-choose{
+    margin: 0 24px;
+}
+.test {
+    position: absolute;
+    top: 200px;
+    left: 20%;
+    z-index: 1;
+    padding-bottom: 100px;
+    width: 60%;
+}
+.test-about {
+    width: 100%;
+}
+.test-course__link {
+    color: var(--primary-color);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+}
+.test-course {
+    padding: 16px;
+    max-width: 80%;
+    border-radius: 50px;
+    border: 3px solid var(--primary-color);
+    margin: 20px 0;
+    background-color: var(--white-color);
+    text-align: center;
+}
+.test-title {
+    color: var(--black-color);
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 56px;
+    margin-left: 24px;
+    font-weight: 600;
+}
+.test-question p,b {
+    color: var(--black-color);
+    font-size: 20px;
+}
+.select-item span {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.test-score {
+    color: var(--black-color);
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 60px;
+}
+
+
+.y-c {
+    background-color: yellow;
+    color: var(--black-color);
+}
