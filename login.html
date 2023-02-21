@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat-listening</title>
+    <style>
+        html {
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            background-color: rgb(13, 1, 44);
+            display: flex;
+            flex-wrap: wrap;
+            height: 100vh;
+        }
+        .login-block {
+            margin: auto;
+            background-color: white;
+            padding: 36px;
+            border-radius: 25px;
+        }
+        .input-box {
+            padding: 8px 0;
+            display: flex;
+            width: 400px;
+        }
+        .input-block {
+            border-radius: 50px;
+            border: 1px solid;
+            line-height: 24px;
+            padding: 4px 12px;
+            width: 300px;
+            font-weight: 400;
+            font-size: 18px;
+            outline: none;
+            flex: 3;
+        }
+        .input-label {
+            flex: 1;
+            display: flex;
+            align-items: center;
+        }
+        .error-title {
+            color: red;
+            margin-top: 24px;
+            font-size: 12px;
+        }
+        a {
+            text-decoration: none;
+        }
+        .btn-block {
+            margin-top: 24px;
+            padding: 0 20px;
+            width: 100%;
+            border: none;
+            background-color: rgb(32, 177, 177);
+            border-radius: 5px;
+            height: 40px;
+        }
+
+        .btn-block:hover {
+            opacity: 0.9;
+        }
+        .login-btn {
+            color: white;
+            font-size: 16px;
+            height: 40px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .red-color {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+
+        <div class="login-block">
+
+            <h2>Log in</h2>
+            <div class="input-area">
+    
+                <div class="input-box">
+                    <label class="input-label">User Name:</label>
+                    <input class="input-block" type="text" name="name">
+        
+                </div>
+                <div class="input-box">
+                    <label class="input-label">Password:</label>
+                    <input class="input-block" type="password" name="password">
+                </div>
+            </div>
+    
+            <button class="btn-block">
+                <a class="login-btn" href="/home.html">Log in</a>
+            </button>
+            
+    
+            <div class="error-message"></div>
+        </div>
+
+    </div>
+
+    <script src="/login.js"></script>
+
+</body>
+</html>
