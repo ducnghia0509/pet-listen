@@ -1,5 +1,5 @@
-var testPetApi = "/PETtest"
-var historyApi = "/history"
+var testPetApi = "./PETtest"
+var historyApi = "./history"
         
 function start(){
     getApiCourse(getCourse);
