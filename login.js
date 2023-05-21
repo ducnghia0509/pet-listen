@@ -1,5 +1,5 @@
-var userApi = "/user"
-var testPetApi = "/PETtest"
+var userApi = "./user"
+var testPetApi = "./PETtest"
 
 console.log()
 
