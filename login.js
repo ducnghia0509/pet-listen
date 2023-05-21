@@ -1,10 +1,6 @@
 var userApi = "./user"
 var testPetApi = "./PETtest"
 
-console.log()
-
-
-
 
 function start(){
     getUserInfo(checkLogIn)
